@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-28T01:46:58",
+  "status": "WARNING",
+  "score": 70,
+  "module_heartbeats_min": {
+    "scheduler": 0.2,
+    "video_factory": 51.0,
+    "futures_lane": 0.2,
+    "health": 0.0
+  },
+  "stale_modules": [
+    "replay_learning"
+  ],
+  "code_drift": {
+    "restart_required": false,
+    "reason": "loop code is current"
+  },
+  "note": "Heuristic health snapshot; self-healing flags restart_required on code drift."
+}

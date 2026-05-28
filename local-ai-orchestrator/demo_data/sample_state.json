@@ -1,0 +1,21 @@
+{
+  "note": "Append-only orchestrator state snapshot (sanitized).",
+  "last_cycle": "2026-05-28T01:46:58",
+  "lanes": {
+    "content": {
+      "eligible": true,
+      "last_run": "2026-05-28T01:30:00",
+      "result": "ok"
+    },
+    "video_factory": {
+      "eligible": true,
+      "last_run": "2026-05-28T00:55:00",
+      "result": "rendered:1"
+    },
+    "futures": {
+      "eligible": true,
+      "last_run": "2026-05-28T01:46:58",
+      "result": "tick:no_trade"
+    }
+  }
+}

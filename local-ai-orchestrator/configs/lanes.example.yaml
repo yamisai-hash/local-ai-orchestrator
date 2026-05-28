@@ -1,0 +1,20 @@
+# lanes.example.yaml -- which lanes run, when, and how often.
+
+scheduler:
+  tick_seconds: 180
+lanes:
+  - name: content
+    priority: 100
+    windows: ["08:00-21:00"]
+    cooldown_min: 30
+  - name: video_factory
+    priority: 60
+    windows: ["00:00-23:59"]
+    cooldown_min: 45
+  - name: futures
+    priority: 80
+    windows: ["00:00-23:59"]
+    cooldown_min: 5
+health:
+  heartbeat_stale_min: 20
+  detect_code_drift: true
